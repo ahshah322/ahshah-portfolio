@@ -1,8 +1,25 @@
-# React + Vite
+# React & TailwindCSS Portfolio - With Dark Mode
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple portfolio built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+![React-TailwindCSS-Portfolio](https://github.com/ahshah322/ahshah-portfolio/assets/76901747/7715611b-821a-42dc-89c8-319ab3671b97)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo URL
+
+[https://ahshah-portfolio.netlify.app](https://ahshah-portfolio.netlify.app)
+
+## Features
+
+-   [React v18](https://reactjs.org) with [Tailwind CSS v3](https://tailwindcss.com)
+-   Custom Hooks
+-   EMAILJS
+-   THREE.JS Component Animations
+-   Reusable components
+-   Framer Motion transitions & animations
+-   Vertical Timeline Animation
+-   Dark mode
+-   Smooth scroll
+-   Dynamic forms
+-   Back to top button
+-   Download file button
+-   Simple and responsive design
