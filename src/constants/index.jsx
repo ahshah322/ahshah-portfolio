@@ -93,7 +93,7 @@ export const projects = [
     id: 1001,
     title: "Portfolio Website",
     des: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
-    github: "https://github.com/ahshah322",
+    github: "https://github.com/ahshah322/ahshah-portfolio",
     site: "https://ahshah-portfolio.netlify.app/",
     src: projectOne,
   },
