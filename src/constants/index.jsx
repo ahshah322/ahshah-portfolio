@@ -92,7 +92,7 @@ export const projects = [
   {
     id: 1001,
     title: "Portfolio Website",
-    des: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+    des: "A simple portfolio built with React and Tailwind CSS and having different features like dark mode, email, animations and back to top.",
     github: "https://github.com/ahshah322/ahshah-portfolio",
     site: "https://ahshah-portfolio.netlify.app/",
     src: projectOne,
