@@ -10,7 +10,7 @@ A simple portfolio built with React and Tailwind CSS.
 
 ## Features
 
--   [React v18](https://reactjs.org) with [Tailwind CSS v3](https://tailwindcss.com
+-   [React v18](https://reactjs.org) with [Tailwind CSS v3](https://tailwindcss.com)
 -   Custom Hooks
 -   EMAILJS
 -   THREE.JS Component Animations
