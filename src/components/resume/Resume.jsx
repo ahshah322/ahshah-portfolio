@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Title from '../layouts/Title';
 import Education from './Education';
-import Skills from './Skills';
+import Skills from '../skills/Skills2';
 import Achievement from './Achievement';
 import Experience from "./Experience"
 
@@ -48,35 +48,6 @@ const Resume = () => {
           >
             Education
           </li>
-          {/* <li
-            onClick={() =>
-              setEducationData(false) &
-              setSkillData(true) &
-              setExperienceData(false) &
-              setAchievementData(false)
-            }
-            className={`${
-              skillData ? "border-designColor rounded-lg" : "border-transparent"
-            } resumeLi`}
-          >
-            Professional Skills
-          </li> */}
-
-          {/* <li
-            onClick={() =>
-              setEducationData(false) &
-              setSkillData(false) &
-              setExperienceData(false) &
-              setAchievementData(true)
-            }
-            className={`${
-              achievementData
-                ? "border-designColor rounded-lg"
-                : "border-transparent"
-            } resumeLi`}
-          >
-            Achievements
-          </li> */}
         </ul>
       </div>
       {educationData && <Education />}

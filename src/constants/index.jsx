@@ -23,12 +23,14 @@ import {
   angular,
   netcore,
   aspmvc,
+  asp,
   jquery,
   mssql,
   blazor,
   mudblazor,
   apksoft,
   dolphindigital,
+  hybridtechpK,
   projectOne,
   projectTwo,
   projectThree,
@@ -65,12 +67,6 @@ export const navLinksdata = [
     title: "Contact",
     link: "contact",
   },
-  //
-  // {
-  //   _id: 1007,
-  //   title: "Testimonial",
-  //   link: "testimonial",
-  // },
 ];
 
 export const about = [
@@ -101,90 +97,114 @@ export const projects = [
 
 export const skills = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "HTML5",
+    logo: html,
+    level: "Advance",
+    count: 86,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "CSS3",
+    level: "Expect",
+    count: 90,
+    logo: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "C#",
+    level: "Expect",
+    count: 80,
+    logo: csharp,
   },
   {
-    name: "jQuery",
-    icon: jquery,
+    name: "ASP.NET",
+    level: "Expect",
+    count: 80,
+    logo: asp,
   },
   {
-    name: "CSharp",
-    icon: csharp,
-  },
-  {
-    name: "ASP NET MVC",
-    icon: aspmvc,
-  },
-  {
-    name: "NET Core",
-    icon: netcore,
-  },
-  {
-    name: "Angular",
-    icon: angular,
+    name: "ASP.NET Core",
+    level: "Intermediate",
+    count: 80,
+    logo: netcore,
   },
   {
     name: "Blazor",
-    icon: blazor,
+    level: "Intermediate",
+    count: 80,
+    logo: blazor,
   },
   {
     name: "MudBlazor",
-    icon: mudblazor,
+    level: "Intermediate",
+    count: 80,
+    logo: mudblazor,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "JavaScript",
+    level: "Intermediate",
+    count: 80,
+    logo: javascript,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "jQuery",
+    level: "Expect",
+    count: 90,
+    logo: jquery,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Angular",
+    level: "Beginner",
+    count: 40,
+    logo: angular,
   },
   {
-    name: "postgresql",
-    icon: postgresql,
+    name: "ReactJS",
+    level: "Intermediate",
+    count: 75,
+    logo: reactjs,
   },
   {
-    name: "git",
-    icon: git,
+    name: "Redux",
+    level: "Beginner",
+    count: 40,
+    logo: redux,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "TailwindCSS",
+    level: "Intermediate",
+    count: 75,
+    logo: tailwind,
   },
-  // {
-  //   name: 'Node JS',
-  //   icon: nodejs,
-  // },
-  // {
-  //   name: 'Rails',
-  //   icon: rubyrails,
-  // },
-  // {
-  //   name: 'graphql',
-  //   icon: graphql,
-  // },
-  // {
-  //   name: 'figma',
-  //   icon: figma,
-  // },
+  {
+    name: "PostgreSQL",
+    level: "Intermediate",
+    count: 75,
+    logo: postgresql,
+  },
+  {
+    name: "Git",
+    level: "Advance",
+    count: 85,
+    logo: git,
+  },
+  {
+    name: "Docker",
+    level: "Beginner",
+    count: 40,
+    logo: docker,
+  },
 ];
 
 export const experiences = [
   {
     id: 1001,
+    title: ".NET Developer",
+    company_name: "Hybrid Tech PK",
+    location: "Kharian, Pakistan",
+    icon: hybridtechpK,
+    date: "January 2024 – March 2024",
+  },
+  {
+    id: 1002,
     title: "Senior Software Engineer",
     company_name: "Dolphin Digital OOH Media",
     location: "Plano, USA",
@@ -192,7 +212,7 @@ export const experiences = [
     date: "July 2022 – October 2023",
   },
   {
-    id: 1002,
+    id: 1003,
     title: ".NET Developer",
     location: "Kharian, Pakistan",
     company_name: "APKSoft",

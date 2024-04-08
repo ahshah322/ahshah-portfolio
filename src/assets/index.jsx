@@ -30,6 +30,7 @@ import csharp from './tech/csharp.png';
 import angular from './tech/angular.png';
 import netcore from './tech/net-core.png';
 import aspmvc from './tech/asp-mvc.png';
+import asp from './tech/asp.png';
 import jquery from './tech/jquery.png';
 import mssql from './tech/mssql.png';
 import blazor from './tech/blazor.png';
@@ -43,6 +44,7 @@ import resume from './icons/resume.png';
 // Company Import
 import apksoft from './company/apksoft.png';
 import dolphindigital from './company/dolphin-digital.png';
+import hybridtechpK from './company/hybrid-tech-pk.png';
 
 export {
   logo,
@@ -77,6 +79,7 @@ export {
   angular,
   netcore,
   aspmvc,
+  asp,
   jquery,
   mssql,
   blazor,
@@ -90,4 +93,5 @@ export {
   // Company Import
   apksoft,
   dolphindigital,
+  hybridtechpK,
 };

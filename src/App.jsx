@@ -1,4 +1,4 @@
-import { React, lazy, Suspense } from "react";
+import { React } from "react";
 import Footer from "./components/footer/Footer.jsx";
 import Home from "./components/banner/Banner.jsx";
 import About from "./components/about/About.jsx";

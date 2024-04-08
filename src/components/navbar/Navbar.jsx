@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="sticky top-0 z-50 border-b-gray-300 border-b-[1px] dark:border-b-gray-600">
-      <div className="container mx-auto h-16 backdrop-blur-md bg-bodyColor-light bg-opacity-95 dark:bg-opacity-95 dark:bg-bodyColor-dark flex justify-between items-center font-titleFont">
+      <div className="container mx-auto h-16 backdrop-blur-md bg-bodyColor-light bg-opacity-80 dark:bg-opacity-80 dark:bg-bodyColor-dark flex justify-between items-center font-titleFont">
         <div className="sm:shrink-0">
           {activeTheme === 'dark' ? (
             <img

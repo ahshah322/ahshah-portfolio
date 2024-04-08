@@ -1,12 +1,8 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { HiOutlineDownload } from "react-icons/hi";
 import Button from "../layouts/Button";
 
 export const AboutLeft = () => {
-  // const onResumeClick = () => {
-  //   window.open(resumeFile);
-  // };
   return (
     <div className="w-full lgl:w-[60%] h-auto py-5 mdl:py-10 flex flex-col gap-8 p-4 lgl:p-8 rounded-lg boxBackground">
       <div className="flex flex-col gap-5 py-2 px-2 text-gray-800 dark:text-gray-400">
@@ -23,7 +19,6 @@ export const AboutLeft = () => {
         </p>
         <div className="w-full flex justify-center mdl:justify-start space-x-4 mt-2">
           <a
-            // download="ALI_HUSNAINSHAH_Resume.pdf"
             href="/files/ALI_HUSNAIN_SHAH_Resume.pdf"
             target="_blank"
           >

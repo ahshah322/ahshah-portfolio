@@ -2,13 +2,13 @@ import React from 'react'
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
 
-const ProjectsCard = ({id, title, des, src, github, site }) => {
+const ProjectsCard = ({project}) => {
   return (
-    <div key={id} className="w-full p-4 mdl:px-8 h-auto mdl:py-8 rounded-lg flex flex-col group project-card-gradient">
+    <div className="w-full p-4 mdl:px-8 h-auto mdl:py-8 rounded-lg flex flex-col group project-card-gradient">
       <div className="w-full h-[80%] overflow-hidden rounded-lg">
         <img
           className="w-full h-60 object-cover group-hover:scale-110 duration-300 cursor-pointer"
-          src={src}
+          src={project.src}
           alt="src"
         />
       </div>
@@ -16,15 +16,15 @@ const ProjectsCard = ({id, title, des, src, github, site }) => {
         <div>
           <div className="flex items-center justify-between">
             <h3 className="text-sm uppercase text-designColor group-hover:font-semibold font-normal">
-              {title}
+              {project.title}
             </h3>
             <div className="flex gap-2">
-              <a href={github} target="_blank">
+              <a href={project.github} target="_blank">
                 <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                   <BsGithub />
                 </span>
               </a>
-              <a href={site} target="_blank">
+              <a href={project.site} target="_blank">
                 <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                   <FaGlobe />
                 </span>
@@ -32,7 +32,7 @@ const ProjectsCard = ({id, title, des, src, github, site }) => {
             </div>
           </div>
           <p className="text-sm group text-justify tracking-tight mt-3 text-gray-400 group-hover:text-gray-800 dark:group-hover:text-gray-100 duration-300">
-            {des}
+            {project.des}
           </p>
         </div>
       </div>
