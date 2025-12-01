@@ -239,7 +239,7 @@ export const experiences = [
 		id: 1003,
 		title: "Senior Software Engineer",
 		company_name: "Dolphin Digital OOH Media",
-		location: "Plano, USA",
+		location: "Plano, Texas, USA",
 		icon: dolphindigital,
 		date: "July 2022 – October 2023",
 	},
