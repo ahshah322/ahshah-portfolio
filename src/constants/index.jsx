@@ -251,6 +251,22 @@ export const experiences = [
 		icon: apksoft,
 		date: "February 2022 – July 2022",
 	},
+	{
+		id: 1005,
+		title: "Data Processing Executive",
+		location: "Kharian, Pakistan",
+		company_name: "APKSoft",
+		icon: apksoft,
+		date: "October 2020 – January 2022",
+	},
+	{
+		id: 1006,
+		title: "Data Posting Officer",
+		location: "Kharian, Pakistan",
+		company_name: "APKSoft",
+		icon: apksoft,
+		date: "September 2016 – December 2020",
+	},
 ];
 
 export const educations = [
