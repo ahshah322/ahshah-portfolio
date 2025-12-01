@@ -8,7 +8,7 @@ export const RightBanner = () => {
   const [text] = useTypewriter({
     words: [
       "Professional Coder.",
-      "Full Stack Developer.",
+      ".NET Full Stack Developer.",
       "React Js Developer.",
     ],
     loop: true,
